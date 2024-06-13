@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei'
 
 
  function Pepsi (props) {
-  const { nodes, materials } = useGLTF('../public/Model/pepsi_can.glb')
+  const { nodes, materials } = useGLTF('/Model/pepsi_can.glb')
   const [scale, setScale] = useState([1, 1, 1]);
 
   useEffect(() => {
@@ -46,4 +46,4 @@ import { useGLTF } from '@react-three/drei'
 }
 export default Pepsi 
 
-useGLTF.preload('../public/Model/pepsi_can.glb')
+useGLTF.preload('/Model/pepsi_can.glb')

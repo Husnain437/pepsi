@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import can from "../../assets/can.png";
-import banner from "../../assets/banner.jpg";
+import can from "../assets/can.png";
+import banner from "../assets/banner.jpg";
 
 const Page = () => {
   useEffect(() => {
@@ -20,7 +20,6 @@ const Page = () => {
         trigger: "#bn",
         start: "top bottom",
         end: "bottom bottom",
-        markers: true,
         scrub: true,
       },
     });

@@ -3,9 +3,9 @@ import "./App.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import ViewPepsi from "./ViewPepsi";
-import logo from "../assets/pepsi.png";
-import leaf from "../assets/leaf.png";
+import ViewPepsi from "../public/Model/ViewPepsi";
+import logo from "./assets/pepsi.png";
+import leaf from "./assets/leaf.png";
 import Page from "./componet/Page";
 
 function App() {
